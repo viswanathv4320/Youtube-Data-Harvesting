@@ -37,6 +37,25 @@ A Streamlit-based web application that fetches YouTube channel data using the **
 
 ---
 
+## 📸 Screenshots
+
+**Home**  
+![Home](screenshots/home.png)
+
+**Data Collection**  
+![Data Collection](screenshots/data_collection.png)
+
+**Migrate to MySQL**  
+![Migrate](screenshots/migrate.png)
+
+**Data Visualization**  
+![Data Visualization](screenshots/data_visualization.png)
+
+**Query Example**  
+![Query 1](screenshots/query1.png)
+
+---
+
 ## 📦 Installation
 
 1️⃣ Clone the repository
