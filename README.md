@@ -38,3 +38,38 @@ A Streamlit-based web application that fetches YouTube channel data using the **
 ---
 
 ## 📦 Installation
+
+1️⃣ Clone the repository
+git clone https://github.com/<your-username>/YouTube-Data-Harvesting.git
+cd YouTube-Data-Harvesting
+
+2️⃣ Create a virtual environment (recommended)
+python3 -m venv venv
+source venv/bin/activate    # Mac/Linux
+venv\Scripts\activate       # Windows
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+4️⃣ Set up MySQL database
+Install MySQL if not already installed.
+Create a database (e.g., youtube_data).
+Update your db_handler.py with:
+
+host = "localhost"
+user = "root"
+password = "your_mysql_password"
+database = "youtube_data"
+
+Run db_handler.py to create tables:
+python db_handler.py
+
+5️⃣ Get your YouTube Data API key
+Go to Google Cloud Console
+Create a new project → Enable YouTube Data API v3 → Generate an API key
+Add your API key inside api_handler.py:
+
+api_key = "YOUR_API_KEY"
+
+6️⃣ Run the application
+streamlit run app.py
