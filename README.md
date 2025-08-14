@@ -2,8 +2,6 @@
 
 A Streamlit-based web application that fetches YouTube channel data using the **YouTube Data API**, stores it in a **MySQL** database, and provides interactive analytical insights through SQL queries.
 
-![Home Page]('/Users/viswanath/Youtube_Data_Harvesting/Home Page.png')
-
 ---
 
 ## 🚀 Features
